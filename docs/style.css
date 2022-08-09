@@ -1,0 +1,49 @@
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4407E6;
+}
+
+body {
+    background-color: #fffff8;
+}
+
+h1, h2, h4 {
+    margin-top: 2rem;
+}
+
+h1, h2, h4, hr, p, ul {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+
+.width800 .highlight {
+    max-width: 800px;
+}
+
+/*--- Dark mode ---*/
+
+@media screen and (prefers-color-scheme: dark) {
+
+    a {
+        color: deepskyblue;
+    }
+
+    a:hover {
+        color: dodgerblue;
+    }
+
+    body {
+        background-color: rgb(35, 39, 45);
+        color: rgb(223, 223, 224);
+    }
+
+    .highlight pre {
+        background-color: black;
+    }
+
+}

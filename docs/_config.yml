@@ -1,0 +1,21 @@
+baseurl: /rusty
+
+collections:
+  get_started:
+    output: true
+  standard_lib:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "get_started"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "standard_lib"
+    values:
+      layout: "page"
+
+exclude: [Gemfile]
