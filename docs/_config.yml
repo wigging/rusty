@@ -3,8 +3,10 @@ baseurl: /rusty
 collections:
   get_started:
     output: true
+    permalink: /:name
   standard_lib:
     output: true
+    permalink: /:name
 
 defaults:
   - scope:
