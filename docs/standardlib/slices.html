@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap https://getbootstrap.com -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Highlightjs https://highlightjs.org -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <link rel="stylesheet" href="../style.css">
+    <title>Rusty</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+
+<h1>Slices</h1>
+<h6>November 14, 2022</h6>
+<hr>
+
+<p>A slice is a reference to a sequence of elements in a collection such as a string or array. In this example, the <code>s</code> string is sliced to obtain a reference of the first word and second word in the string.</p>
+<pre><code class="language-rust">let s = String::from(&quot;hello there&quot;);
+let firstword = &amp;s[0..5];
+let secondword = &amp;s[6..11];
+println!(&quot;phrase is: {s}&quot;);
+println!(&quot;first word is: {firstword}&quot;);
+println!(&quot;second word is: {secondword}&quot;);
+</code></pre>
+<p>The above example prints the following:</p>
+<pre><code>phrase is: hello there
+first word is: hello
+second word is: there
+</code></pre>
+<p>The range syntax can omit the first index when starting at index zero. It can also omit the last index if the last item is included in the range.</p>
+<pre><code class="language-rust">let firstword = &amp;s[..5];
+let secondword = &amp;s[6..];
+println!(&quot;first word is: {firstword}&quot;);
+println!(&quot;second word is: {secondword}\n&quot;);
+</code></pre>
+<p>This prints the same output as the previous example:</p>
+<pre><code>first word is: hello
+second word is: there
+</code></pre>
+<p>Slices can be applied to arrays as shown below.</p>
+<pre><code class="language-rust">let items = [1, 2, 3, 4, 5];
+let slice = &amp;items[1..4];
+println!(&quot;items are: {:?}&quot;, items);
+println!(&quot;items slice is: {:?}&quot;, slice);
+</code></pre>
+<pre><code>items are: [1, 2, 3, 4, 5]
+items slice is: [2, 3, 4]
+</code></pre>
+
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md">
+            <p class="text-center small my-5">🦀 Rusty by Gavin Wiggins © 2022</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

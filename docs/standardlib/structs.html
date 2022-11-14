@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap https://getbootstrap.com -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Highlightjs https://highlightjs.org -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <link rel="stylesheet" href="../style.css">
+    <title>Rusty</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+
+<h1>Structs</h1>
+<h6>November 14, 2022</h6>
+<hr>
+
+<p>A <code>struct</code> is a custom data type that contains related values. Below are some examples of creating structs and accessing its values.</p>
+<h2>A basic struct</h2>
+<p>A basic example of defining a struct and accessing its values is given below.</p>
+<pre><code class="language-rust">// A basic struct
+
+struct Point {
+    x: i32,
+    y: i32
+}
+
+fn main() {
+
+    // Using a basic struct
+
+    let p = Point {
+        x: 13,
+        y: 8
+    };
+
+    println!(&quot;x is {}, y is {}&quot;, p.x, p.y);
+}
+</code></pre>
+<p>Output from the above example.</p>
+<pre><code>x is 13, y is 8
+</code></pre>
+<h2>Tuple structs</h2>
+<p>Here is an example of a tuple struct.</p>
+<pre><code class="language-rust">// A tuple struct
+
+struct PointTuple(i32, i32);
+
+fn main() {
+
+    // Using a tuple struct
+
+    let pt = PointTuple(32, 16);
+
+    println!(&quot;x is {}, y is {}&quot;, pt.0, pt.1);
+}
+</code></pre>
+<pre><code>x is 32, y is 16
+</code></pre>
+<h2>Methods</h2>
+<p>And here is an example of defining methods associated with a struct.</p>
+<pre><code class="language-rust">// A struct with methods (functions)
+
+struct Shape {
+    width: u32,
+    height: u32
+}
+
+impl Shape {
+
+    fn area(&amp;self) -&gt; u32 {
+        self.width * self.height
+    }
+
+    fn volume(&amp;self, v: u32) -&gt; u32 {
+        self.width * self.height * v
+    }
+}
+
+fn main() {
+
+    // Using a struct with methods
+
+    let shape = Shape { width: 2, height: 3 };
+    let area = shape.area();
+    let volume = shape.volume(2);
+
+    println!(&quot;Area is: {area}&quot;);
+    println!(&quot;Volume is: {volume}&quot;);
+}
+</code></pre>
+<pre><code>Area is: 6
+Volume is: 12
+</code></pre>
+
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md">
+            <p class="text-center small my-5">🦀 Rusty by Gavin Wiggins © 2022</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

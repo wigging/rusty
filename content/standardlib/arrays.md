@@ -1,5 +1,6 @@
 ---
 title: Arrays
+date: November 14, 2022
 ---
 
 An array is a collection of values where every element must have the same type. The length of an array is fixed and the first item is at index 0.

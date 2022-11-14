@@ -1,5 +1,6 @@
 ---
 title: Tuples
+date: November 14, 2022
 ---
 
 A tuple groups together values where each value can have a different type. Tuples have a fixed length and the first index is 0. In this example, a tuple is defined with three values of different types. The value is accessed using a period.

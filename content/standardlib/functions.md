@@ -1,5 +1,6 @@
 ---
 title: Functions
+date: November 14, 2022
 ---
 
 Functions in Rust are defined with `fn`. The function name and its input arguments should be lowercase with underscores to separate words. Some examples of functions are shown below.

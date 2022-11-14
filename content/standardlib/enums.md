@@ -1,5 +1,6 @@
 ---
 title: Enums
+date: November 14, 2022
 ---
 
 Example of defining and using an enum (enumeration).
