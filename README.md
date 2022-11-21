@@ -1,15 +1,18 @@
-# Rusty
+# :crab: Rusty
 
-Examples of the Rust programming language.
+Rust is a great modern programming language that is memory efficient and fast. This repository and accompanying website provide concise code examples of basic Rust features as well as more advanced topics relevant to scientific computing.
 
-## Build the website
+## Examples
 
-The website is hosted with GitHub Pages from the `docs` directory. The genja tool is used to convert the Markdown files in `content` to the HTML files in `docs`. After installing genja, use the command shown below to convert the files.
+Example code is located in the `rust-scripts` folder.
 
-```bash
-# Run genja to convert the Markdown content to HTML files
-genja content docs
-```
+## Website
+
+The website is available at https://gavinw.me/rusty. It is generated with the [genja](https://github.com/wigging/genja) tool where Markdown files are in the `content` folder and the generated HTML files are in the `docs` folder.
+
+## Contributing
+
+Submit a Pull Request if you would like to contribute to this project. Questions and other comments can be submitted on the Issues page.
 
 ## Support
 
@@ -17,4 +20,4 @@ Support this project by using the **:heart: Sponsor** button at the top of this 
 
 ## License
 
-Code in this repository is available under the MIT License - see the [LICENSE](LICENSE) file for more information.
+Code in this repository is available under the MIT License - see the [LICENSE](LICENSE.md) file for more information.
