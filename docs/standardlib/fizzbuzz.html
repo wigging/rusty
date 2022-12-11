@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap https://getbootstrap.com -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Highlightjs https://highlightjs.org -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <link rel="stylesheet" href="../style.css">
+    <title>Rusty</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+
+<h1>FizzBuzz</h1>
+<h6>December 11, 2022</h6>
+<hr>
+
+<p>Examples of the classic fizzbuzz problem are implemented below. The first example uses if-else statements while the second example uses pattern matching.</p>
+<pre><code class="language-rust">fn main() {
+
+    // Example 1
+
+    for i in 1..21 {
+        print!(&quot;i is {} &quot;, i);
+        if i % 5 == 0 &amp;&amp; i % 3 == 0 {
+            println!(&quot;FizzBuzz&quot;);
+        } else if i % 5 == 0 {
+            println!(&quot;Fizz&quot;);
+        } else if i % 3 == 0 {
+            println!(&quot;Buzz&quot;);
+        } else {
+            println!(&quot;&quot;);
+        }
+    }
+
+    // Example 2
+
+    for i in 1..21 {
+        print!(&quot;i is {} &quot;, i);
+        match (i % 3, i % 5) {
+            (0, 0) =&gt; println!(&quot;FizzBuzz&quot;),
+            (_, 0) =&gt; println!(&quot;Fizz&quot;),
+            (0, _) =&gt; println!(&quot;Buzz&quot;),
+            _ =&gt; println!(&quot;&quot;),
+        }
+    }
+
+}
+</code></pre>
+<p>The output from the above examples is shown below.</p>
+<pre><code>i is 1
+i is 2
+i is 3 Buzz
+i is 4
+i is 5 Fizz
+i is 6 Buzz
+i is 7
+i is 8
+i is 9 Buzz
+i is 10 Fizz
+i is 11
+i is 12 Buzz
+i is 13
+i is 14
+i is 15 FizzBuzz
+i is 16
+i is 17
+i is 18 Buzz
+i is 19
+i is 20 Fizz
+</code></pre>
+
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md">
+            <p class="text-center small my-5">🦀 Rusty by Gavin Wiggins © 2022</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
