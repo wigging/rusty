@@ -1,14 +1,10 @@
 # :crab: Rusty
 
-Rust is a great modern programming language that is memory efficient and fast. This repository and accompanying website provide concise code examples of basic Rust features as well as more advanced topics relevant to scientific computing.
+Rust is a great modern programming language that is memory efficient and fast. This repository contains the example code discussed on my personal website at https://gavinw.me.
 
 ## Examples
 
 Example code is located in the `rust-scripts` folder.
-
-## Website
-
-The website is available at https://gavinw.me/rusty. It is generated with the [genja](https://github.com/wigging/genja) tool where Markdown files are in the `content` folder and the generated HTML files are in the `docs` folder.
 
 ## Contributing
 
