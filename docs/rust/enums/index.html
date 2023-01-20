@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://gavinw.me/pythonic/rss.xml" rel="alternate" type="application/rss+xml" title="RSS">
+    <link href="https://gavinw.me/pythonic/styles.css" rel="stylesheet">
+    <title>Rusty</title>
+</head>
+<body>
+<div class="container">
+    
+<div class="row">
+<div class="col">
+    <h1>Enums</h1>
+    
+        <h6>November 14, 2022</h6>
+    
+    <hr>
+    <p>Example of defining and using an enum (enumeration).</p>
+<pre data-lang="rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-rust "><code class="language-rust" data-lang="rust"><span style="color:#b48ead;">enum </span><span>Fruit {
+</span><span>    Apple,
+</span><span>    Orange,
+</span><span>    Lemon,
+</span><span>    Mellon,
+</span><span>}
+</span><span>
+</span><span style="color:#b48ead;">fn </span><span style="color:#8fa1b3;">selection</span><span>(</span><span style="color:#bf616a;">fruit</span><span>: Fruit) {
+</span><span>    </span><span style="color:#b48ead;">match</span><span> fruit {
+</span><span>        Fruit::Apple =&gt; println!(&quot;</span><span style="color:#a3be8c;">Selected the Apple fruit</span><span>&quot;),
+</span><span>        Fruit::Orange =&gt; println!(&quot;</span><span style="color:#a3be8c;">You chose the Orange fruit</span><span>&quot;),
+</span><span>        Fruit::Mellon =&gt; println!(&quot;</span><span style="color:#a3be8c;">You selected a Watermelon</span><span>&quot;),
+</span><span>        Fruit::Lemon =&gt; println!(&quot;</span><span style="color:#a3be8c;">Selected a Lemon fruit</span><span>&quot;),
+</span><span>    }
+</span><span>}
+</span><span>
+</span><span style="color:#b48ead;">fn </span><span style="color:#8fa1b3;">main</span><span>() {
+</span><span>    </span><span style="color:#b48ead;">let</span><span> item1 = Fruit::Orange;
+</span><span>    </span><span style="color:#96b5b4;">selection</span><span>(item1);
+</span><span>
+</span><span>    </span><span style="color:#b48ead;">let</span><span> item2 = Fruit::Apple;
+</span><span>    </span><span style="color:#96b5b4;">selection</span><span>(item2);
+</span><span>
+</span><span>    </span><span style="color:#b48ead;">let</span><span> item3 = Fruit::Mellon;
+</span><span>    </span><span style="color:#96b5b4;">selection</span><span>(item3);
+</span><span>
+</span><span>    </span><span style="color:#b48ead;">let</span><span> item4 = Fruit::Lemon;
+</span><span>    </span><span style="color:#96b5b4;">selection</span><span>(item4);
+</span><span>}
+</span></code></pre>
+<p>The output from the above example is shown below.</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>You chose the Orange fruit
+</span><span>Selected the Apple fruit
+</span><span>You selected a Watermelon
+</span><span>Selected a Lemon fruit
+</span></code></pre>
+
+</div>
+</div>
+<div class="row my-5">
+<div class="col">
+    <p class="text-center small my-5">
+        <a href="https://gavinw.me/rusty/">Rusty</a> © 2023 <br>
+        Built by <a href="https://gavinw.me">Gavin Wiggins</a>
+    </p>
+</div>
+</div>
+
+</div>
+</body>
+</html>
