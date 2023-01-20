@@ -1,10 +1,14 @@
 # :crab: Rusty
 
-Rust is a great modern programming language that is memory efficient and fast. This repository contains the example code discussed on my personal website at https://gavinw.me.
+Rust is a great modern programming language that is memory efficient and fast. This repository and accompanying website contain provide concised examples of the Rusty programming language. The website is available at https://gavinw.me/rusty.
 
 ## Examples
 
 Example code is located in the `rust-scripts` folder.
+
+## Website
+
+The website is generated with [Zola](https://www.getzola.org) using the `content`, `static`, `templates` folders, and the `config.toml` file. It is hosted with GitHub Pages from the `docs` folder.
 
 ## Contributing
 
