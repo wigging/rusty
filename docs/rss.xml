@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-      <title>Pythonic Programming</title>
-        <link>https://gavinw.me/pythonic</link>
-        <description>Examples of the Python programming language</description>
+      <title>Rusty</title>
+        <link>https://gavinw.me/rusty</link>
+        <description>Examples of the Rust programming language</description>
         <generator>Zola</generator>
         <language>en</language>
-        <atom:link href="https://gavinw.me/pythonic/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://gavinw.me/rusty/rss.xml" rel="self" type="application/rss+xml"/>
         <lastBuildDate>Sun, 18 Dec 2022 00:00:00 +0000</lastBuildDate>
         <item>
             <title>Hash maps</title>
             <pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/hashmaps/</link>
-            <guid>https://gavinw.me/pythonic/rust/hashmaps/</guid>
+            <link>https://gavinw.me/rusty/rust/hashmaps/</link>
+            <guid>https://gavinw.me/rusty/rust/hashmaps/</guid>
             <description>&lt;p&gt;A hash map stores a key&#x2F;value pair into memory. This is similar to a hash table or dictionary in other programming languages. The example below creates a new hash map, adds elements to it, then gets a value associated with a key.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;use &lt;&#x2F;span&gt;&lt;span&gt;std::collections::HashMap;
 &lt;&#x2F;span&gt;&lt;span&gt;
@@ -47,8 +47,8 @@
         <item>
             <title>Strings</title>
             <pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/strings/</link>
-            <guid>https://gavinw.me/pythonic/rust/strings/</guid>
+            <link>https://gavinw.me/rusty/rust/strings/</link>
+            <guid>https://gavinw.me/rusty/rust/strings/</guid>
             <description>&lt;p&gt;A string literal uses double quotes &lt;code&gt;&amp;quot; &amp;quot;&lt;&#x2F;code&gt; and represents a string slice &lt;code&gt;str&lt;&#x2F;code&gt; or &lt;code&gt;&amp;amp;str&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; String literal which is a string slice str or &amp;amp;str
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; s1 = &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;hello there&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;;
@@ -107,8 +107,8 @@
         <item>
             <title>FizzBuzz</title>
             <pubDate>Sun, 11 Dec 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/fizzbuzz/</link>
-            <guid>https://gavinw.me/pythonic/rust/fizzbuzz/</guid>
+            <link>https://gavinw.me/rusty/rust/fizzbuzz/</link>
+            <guid>https://gavinw.me/rusty/rust/fizzbuzz/</guid>
             <description>&lt;p&gt;Examples of the classic fizzbuzz problem are implemented below. The first example uses if-else statements while the second example uses pattern matching.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
 &lt;&#x2F;span&gt;&lt;span&gt;
@@ -168,8 +168,8 @@
         <item>
             <title>Vectors</title>
             <pubDate>Sun, 11 Dec 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/vectors/</link>
-            <guid>https://gavinw.me/pythonic/rust/vectors/</guid>
+            <link>https://gavinw.me/rusty/rust/vectors/</link>
+            <guid>https://gavinw.me/rusty/rust/vectors/</guid>
             <description>&lt;p&gt;A vector is resizable collection that stores items of the same type. Its values are stored next to each other in memory.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Create a vector of numbers
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; v1 = vec![&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;8&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;12&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;9&lt;&#x2F;span&gt;&lt;span&gt;];
@@ -233,8 +233,8 @@
         <item>
             <title>Arrays</title>
             <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/arrays/</link>
-            <guid>https://gavinw.me/pythonic/rust/arrays/</guid>
+            <link>https://gavinw.me/rusty/rust/arrays/</link>
+            <guid>https://gavinw.me/rusty/rust/arrays/</guid>
             <description>&lt;p&gt;An array is a collection of values where every element must have the same type. The length of an array is fixed and the first item is at index 0.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Create an array of integers and access the first item
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; a = [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;4&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;6&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;8&lt;&#x2F;span&gt;&lt;span&gt;];
@@ -268,8 +268,8 @@
         <item>
             <title>Enums</title>
             <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/enums/</link>
-            <guid>https://gavinw.me/pythonic/rust/enums/</guid>
+            <link>https://gavinw.me/rusty/rust/enums/</link>
+            <guid>https://gavinw.me/rusty/rust/enums/</guid>
             <description>&lt;p&gt;Example of defining and using an enum (enumeration).&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;enum &lt;&#x2F;span&gt;&lt;span&gt;Fruit {
 &lt;&#x2F;span&gt;&lt;span&gt;    Apple,
@@ -312,8 +312,8 @@
         <item>
             <title>Functions</title>
             <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/functions/</link>
-            <guid>https://gavinw.me/pythonic/rust/functions/</guid>
+            <link>https://gavinw.me/rusty/rust/functions/</link>
+            <guid>https://gavinw.me/rusty/rust/functions/</guid>
             <description>&lt;p&gt;Functions in Rust are defined with &lt;code&gt;fn&lt;&#x2F;code&gt;. The function name and its input arguments should be lowercase with underscores to separate words. Some examples of functions are shown below.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
 &lt;&#x2F;span&gt;&lt;span&gt;
@@ -351,8 +351,8 @@
         <item>
             <title>If expressions</title>
             <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/ifexpressions/</link>
-            <guid>https://gavinw.me/pythonic/rust/ifexpressions/</guid>
+            <link>https://gavinw.me/rusty/rust/ifexpressions/</link>
+            <guid>https://gavinw.me/rusty/rust/ifexpressions/</guid>
             <description>&lt;p&gt;Use an &lt;code&gt;if&lt;&#x2F;code&gt; expression to check if a condition is met or not met. The &lt;code&gt;else&lt;&#x2F;code&gt; expression is used to check for multiple conditions.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
 &lt;&#x2F;span&gt;&lt;span&gt;
@@ -390,8 +390,8 @@
         <item>
             <title>Installing Rust</title>
             <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/install-rust/</link>
-            <guid>https://gavinw.me/pythonic/rust/install-rust/</guid>
+            <link>https://gavinw.me/rusty/rust/install-rust/</link>
+            <guid>https://gavinw.me/rusty/rust/install-rust/</guid>
             <description>&lt;p&gt;Follow the instructions at &lt;a href=&quot;https:&#x2F;&#x2F;www.rust-lang.org&quot;&gt;rust-lang.org&lt;&#x2F;a&gt; to install the latest Rust version. The &lt;code&gt;rustup&lt;&#x2F;code&gt; command line tool is used to install and manage Rust.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Update your Rust installation
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span&gt; rustup update
@@ -404,8 +404,8 @@
         <item>
             <title>Loops</title>
             <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/loops/</link>
-            <guid>https://gavinw.me/pythonic/rust/loops/</guid>
+            <link>https://gavinw.me/rusty/rust/loops/</link>
+            <guid>https://gavinw.me/rusty/rust/loops/</guid>
             <description>&lt;p&gt;Rust provides three kinds of loops: &lt;code&gt;loop&lt;&#x2F;code&gt;, &lt;code&gt;while&lt;&#x2F;code&gt;, and &lt;code&gt;for&lt;&#x2F;code&gt;. Use the &lt;code&gt;loop&lt;&#x2F;code&gt; keyword to execute code repeatedly until &lt;code&gt;break&lt;&#x2F;code&gt; is called.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;let mut&lt;&#x2F;span&gt;&lt;span&gt; counter = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span&gt;;
 &lt;&#x2F;span&gt;&lt;span&gt;
@@ -461,8 +461,8 @@
         <item>
             <title>Numbers</title>
             <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/numbers/</link>
-            <guid>https://gavinw.me/pythonic/rust/numbers/</guid>
+            <link>https://gavinw.me/rusty/rust/numbers/</link>
+            <guid>https://gavinw.me/rusty/rust/numbers/</guid>
             <description>&lt;p&gt;Signed integer types are &lt;code&gt;i8&lt;&#x2F;code&gt; (8-bit), &lt;code&gt;i16&lt;&#x2F;code&gt; (16-bit), &lt;code&gt;i32&lt;&#x2F;code&gt; (32-bit), &lt;code&gt;i64&lt;&#x2F;code&gt; (64-bit), and &lt;code&gt;i128&lt;&#x2F;code&gt; (128-bit). The default integer type is i32. Numbers represented by signed integers can have a positive or negative value.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Examples of signed integers
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; a: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;i8 &lt;&#x2F;span&gt;&lt;span&gt;= -&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;23&lt;&#x2F;span&gt;&lt;span&gt;;
@@ -488,8 +488,8 @@
         <item>
             <title>References</title>
             <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/references/</link>
-            <guid>https://gavinw.me/pythonic/rust/references/</guid>
+            <link>https://gavinw.me/rusty/rust/references/</link>
+            <guid>https://gavinw.me/rusty/rust/references/</guid>
             <description>&lt;p&gt;A reference is denoted by an ampersand &lt;code&gt;&amp;amp;&lt;&#x2F;code&gt;. In the example below, a reference of the string &lt;code&gt;s1&lt;&#x2F;code&gt; is passed to the &lt;code&gt;calculate_length&lt;&#x2F;code&gt; function. The &lt;code&gt;&amp;amp;s1&lt;&#x2F;code&gt; refers to the value of &lt;code&gt;s1&lt;&#x2F;code&gt; without owning it.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
 &lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; s1 = String::from(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;hello&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;);
@@ -509,8 +509,8 @@
         <item>
             <title>Compile and run a file</title>
             <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/run-file/</link>
-            <guid>https://gavinw.me/pythonic/rust/run-file/</guid>
+            <link>https://gavinw.me/rusty/rust/run-file/</link>
+            <guid>https://gavinw.me/rusty/rust/run-file/</guid>
             <description>&lt;p&gt;Below is the contents of a simple Rust program contained in a file named &lt;code&gt;sayhello.rs&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Contents of sayhello.rs that prints text to the screen.
 &lt;&#x2F;span&gt;&lt;span&gt;
@@ -531,8 +531,8 @@
         <item>
             <title>Slices</title>
             <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/slices/</link>
-            <guid>https://gavinw.me/pythonic/rust/slices/</guid>
+            <link>https://gavinw.me/rusty/rust/slices/</link>
+            <guid>https://gavinw.me/rusty/rust/slices/</guid>
             <description>&lt;p&gt;A slice is a reference to a sequence of elements in a collection such as a string or array. In this example, the &lt;code&gt;s&lt;&#x2F;code&gt; string is sliced to obtain a reference of the first word and second word in the string.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; s = String::from(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;hello there&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;);
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; firstword = &amp;amp;s[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span&gt;..&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span&gt;];
@@ -570,8 +570,8 @@
         <item>
             <title>Structs</title>
             <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/structs/</link>
-            <guid>https://gavinw.me/pythonic/rust/structs/</guid>
+            <link>https://gavinw.me/rusty/rust/structs/</link>
+            <guid>https://gavinw.me/rusty/rust/structs/</guid>
             <description>&lt;p&gt;A &lt;code&gt;struct&lt;&#x2F;code&gt; is a custom data type that contains related values. Below are some examples of creating structs and accessing its values.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;a-basic-struct&quot;&gt;A basic struct&lt;&#x2F;h2&gt;
 &lt;p&gt;A basic example of defining a struct and accessing its values is given below.&lt;&#x2F;p&gt;
@@ -654,8 +654,8 @@
         <item>
             <title>Tuples</title>
             <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-            <link>https://gavinw.me/pythonic/rust/tuples/</link>
-            <guid>https://gavinw.me/pythonic/rust/tuples/</guid>
+            <link>https://gavinw.me/rusty/rust/tuples/</link>
+            <guid>https://gavinw.me/rusty/rust/tuples/</guid>
             <description>&lt;p&gt;A tuple groups together values where each value can have a different type. Tuples have a fixed length and the first index is 0. In this example, a tuple is defined with three values of different types. The value is accessed using a period.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Tuple with a variety of types
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; tup: (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;i8&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;f64&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;u16&lt;&#x2F;span&gt;&lt;span&gt;) = (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;12&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;4.05&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span&gt;);

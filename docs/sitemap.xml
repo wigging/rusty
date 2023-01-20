@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://gavinw.me/pythonic/</loc>
+        <loc>https://gavinw.me/rusty/</loc>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/</loc>
+        <loc>https://gavinw.me/rusty/rust/</loc>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/arrays/</loc>
+        <loc>https://gavinw.me/rusty/rust/arrays/</loc>
         <lastmod>2022-11-14</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/enums/</loc>
+        <loc>https://gavinw.me/rusty/rust/enums/</loc>
         <lastmod>2022-11-14</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/fizzbuzz/</loc>
+        <loc>https://gavinw.me/rusty/rust/fizzbuzz/</loc>
         <lastmod>2022-12-11</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/functions/</loc>
+        <loc>https://gavinw.me/rusty/rust/functions/</loc>
         <lastmod>2022-11-14</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/hashmaps/</loc>
+        <loc>https://gavinw.me/rusty/rust/hashmaps/</loc>
         <lastmod>2022-12-18</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/ifexpressions/</loc>
+        <loc>https://gavinw.me/rusty/rust/ifexpressions/</loc>
         <lastmod>2022-11-14</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/install-rust/</loc>
+        <loc>https://gavinw.me/rusty/rust/install-rust/</loc>
         <lastmod>2022-11-14</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/loops/</loc>
+        <loc>https://gavinw.me/rusty/rust/loops/</loc>
         <lastmod>2022-11-14</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/numbers/</loc>
+        <loc>https://gavinw.me/rusty/rust/numbers/</loc>
         <lastmod>2022-11-14</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/references/</loc>
+        <loc>https://gavinw.me/rusty/rust/references/</loc>
         <lastmod>2022-11-14</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/run-file/</loc>
+        <loc>https://gavinw.me/rusty/rust/run-file/</loc>
         <lastmod>2022-11-14</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/slices/</loc>
+        <loc>https://gavinw.me/rusty/rust/slices/</loc>
         <lastmod>2022-11-14</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/strings/</loc>
+        <loc>https://gavinw.me/rusty/rust/strings/</loc>
         <lastmod>2022-12-18</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/structs/</loc>
+        <loc>https://gavinw.me/rusty/rust/structs/</loc>
         <lastmod>2022-11-14</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/tuples/</loc>
+        <loc>https://gavinw.me/rusty/rust/tuples/</loc>
         <lastmod>2022-11-14</lastmod>
     </url>
     <url>
-        <loc>https://gavinw.me/pythonic/rust/vectors/</loc>
+        <loc>https://gavinw.me/rusty/rust/vectors/</loc>
         <lastmod>2022-12-11</lastmod>
     </url>
 </urlset>

@@ -1,9 +1,9 @@
 # The base URL of the site; the only required configuration variable.
-base_url = "https://gavinw.me/pythonic"
+base_url = "https://gavinw.me/rusty"
 
 # The site title and description; used in feeds by default.
-title = "Pythonic Programming"
-description = "Examples of the Python programming language"
+title = "Rusty"
+description = "Examples of the Rust programming language"
 
 # When set to "true", the Sass files in the `sass` directory in the site root are compiled.
 # Sass files in theme directories are always compiled.
