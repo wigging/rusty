@@ -5,6 +5,13 @@
     "feed_url": "https://gavinw.me/rusty/feed.json",
     "items": [
         {
+            "id": "https://gavinw.me/rusty/rust/enums.html",
+            "url": "https://gavinw.me/rusty/rust/enums.html",
+            "title": "Enums",
+            "date_published": "2023-01-30T00:00:00Z",
+            "content_html": "<p>An enum (or enumeration) represents data that is one of several possible variants. Each variant in the enum can optionally have data associated with it. An enumeration is declared using the <code>enum</code> keyword.</p><p><a href=\"https://gavinw.me/rusty/rust/enums.html\">Continue reading...</a></p>"
+        },
+        {
             "id": "https://gavinw.me/rusty/rust/hashmaps.html",
             "url": "https://gavinw.me/rusty/rust/hashmaps.html",
             "title": "Hash maps",
@@ -94,13 +101,6 @@
             "title": "Functions",
             "date_published": "2022-11-14T00:00:00Z",
             "content_html": "<p>Functions in Rust are defined with <code>fn</code>. The function name and its input arguments should be lowercase with underscores to separate words. Some examples of functions are shown below.</p><p><a href=\"https://gavinw.me/rusty/rust/functions.html\">Continue reading...</a></p>"
-        },
-        {
-            "id": "https://gavinw.me/rusty/rust/enums.html",
-            "url": "https://gavinw.me/rusty/rust/enums.html",
-            "title": "Enums",
-            "date_published": "2022-11-14T00:00:00Z",
-            "content_html": "<p>Example of defining and using an enum (enumeration).</p><p><a href=\"https://gavinw.me/rusty/rust/enums.html\">Continue reading...</a></p>"
         },
         {
             "id": "https://gavinw.me/rusty/rust/ifexpressions.html",

@@ -1,9 +1,9 @@
 ---
 title: Enums
-date: November 14, 2022
+date: January 30, 2023
 ---
 
-Example of defining and using an enum (enumeration).
+An enum (or enumeration) represents data that is one of several possible variants. Each variant in the enum can optionally have data associated with it. An enumeration is declared using the `enum` keyword.
 
 ```rust
 enum Fruit {
