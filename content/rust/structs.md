@@ -1,7 +1,7 @@
-+++
-title = "Structs"
-date = 2022-11-14
-+++
+---
+title: Structs
+date: November 14, 2022
+---
 
 A `struct` is a custom data type that contains related values. Below are some examples of creating structs and accessing its values.
 

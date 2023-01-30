@@ -1,7 +1,7 @@
-+++
-title = "If expressions"
-date = 2022-11-14
-+++
+---
+title: If expressions
+date: November 14, 2022
+---
 
 Use an `if` expression to check if a condition is met or not met. The `else` expression is used to check for multiple conditions.
 

@@ -1,7 +1,7 @@
-+++
-title = "Slices"
-date = 2022-11-14
-+++
+---
+title: Slices
+date: November 14, 2022
+---
 
 A slice is a reference to a sequence of elements in a collection such as a string or array. In this example, the `s` string is sliced to obtain a reference of the first word and second word in the string.
 

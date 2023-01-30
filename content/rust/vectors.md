@@ -1,7 +1,7 @@
-+++
-title = "Vectors"
-date = 2022-12-11
-+++
+---
+title: Vectors
+date: December 11, 2022
+---
 
 A vector is resizable collection that stores items of the same type. Its values are stored next to each other in memory.
 

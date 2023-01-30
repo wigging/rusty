@@ -1,7 +1,7 @@
-+++
-title = "Loops"
-date = 2022-11-14
-+++
+---
+title: Loops
+date: November 14, 2022
+---
 
 Rust provides three kinds of loops: `loop`, `while`, and `for`. Use the `loop` keyword to execute code repeatedly until `break` is called.
 

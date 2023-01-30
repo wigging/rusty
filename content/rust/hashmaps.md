@@ -1,7 +1,7 @@
-+++
-title = "Hash maps"
-date = 2022-12-18
-+++
+---
+title: Hash maps
+date: December 18, 2022
+---
 
 A hash map stores a key/value pair into memory. This is similar to a hash table or dictionary in other programming languages. The example below creates a new hash map, adds elements to it, then gets a value associated with a key.
 

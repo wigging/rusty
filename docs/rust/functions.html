@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Highlightjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/rust.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <!-- JSON feed -->
+    <link href="https://gavinw.me/rusty/feed.json" rel="alternate" type="application/feed+json" title="Rusty">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/rusty/styles.css">
+
+    <title>Rusty</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+
+        <h1>Functions</h1>
+        <h6>November 14, 2022</h6>
+        <hr>
+
+        <p>Functions in Rust are defined with <code>fn</code>. The function name and its input arguments should be lowercase with underscores to separate words. Some examples of functions are shown below.</p>
+<pre><code class="language-rust">fn main() {
+
+    basic_function();
+
+    let sum = adder(2, 3);
+    println!(&quot;The sum is {sum}&quot;);
+
+    let frac = divider(5.0, 2.0);
+    println!(&quot;The fraction is {frac}&quot;);
+}
+
+// A basic function with no inputs
+
+fn basic_function() {
+    println!(&quot;Basic function with no inputs&quot;);
+}
+
+// Use the return keyword to return a value
+
+fn adder(x: i32, y: i32) -&gt; i32 {
+    let s = x + y;
+    return s
+}
+
+// This function uses an expression to return its value. Notice the absence of
+// a semicolon after the expression in the function.
+
+fn divider(x: f32, y: f32) -&gt; f32 {
+    x / y
+}
+</code></pre>
+
+        </div>
+    </div>
+    <div class="row my-5">
+    <div class="col">
+        <p class="text-center small my-5">
+            <a href="https://gavinw.me/rusty/">Rusty</a> © 2023 <br>
+            Built by <a href="https://gavinw.me">Gavin Wiggins</a>
+        </p>
+    </div>
+    </div>
+</div>
+</body>
+</html>

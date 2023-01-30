@@ -1,7 +1,7 @@
-+++
-title = "FizzBuzz"
-date = 2022-12-11
-+++
+---
+title: FizzBuzz
+date: December 11, 2022
+---
 
 Examples of the classic fizzbuzz problem are implemented below. The first example uses if-else statements while the second example uses pattern matching.
 

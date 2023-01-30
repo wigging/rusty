@@ -1,7 +1,7 @@
-+++
-title = "Compile and run a file"
-date = 2022-11-14
-+++
+---
+title: Compile and run a file
+date: November 14, 2022
+---
 
 Below is the contents of a simple Rust program contained in a file named `sayhello.rs`.
 

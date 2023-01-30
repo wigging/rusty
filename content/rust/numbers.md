@@ -1,7 +1,7 @@
-+++
-title = "Numbers"
-date = 2022-11-14
-+++
+---
+title: Numbers
+date: November 14, 2022
+---
 
 Signed integer types are `i8` (8-bit), `i16` (16-bit), `i32` (32-bit), `i64` (64-bit), and `i128` (128-bit). The default integer type is i32. Numbers represented by signed integers can have a positive or negative value.
 

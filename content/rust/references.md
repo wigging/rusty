@@ -1,7 +1,7 @@
-+++
-title = "References"
-date = 2022-11-14
-+++
+---
+title: References
+date: November 14, 2022
+---
 
 A reference is denoted by an ampersand `&`. In the example below, a reference of the string `s1` is passed to the `calculate_length` function. The `&s1` refers to the value of `s1` without owning it.
 

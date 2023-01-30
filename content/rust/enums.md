@@ -1,7 +1,7 @@
-+++
-title = "Enums"
-date = 2022-11-14
-+++
+---
+title: Enums
+date: November 14, 2022
+---
 
 Example of defining and using an enum (enumeration).
 

@@ -1,7 +1,7 @@
-+++
-title = "Strings"
-date = 2022-12-18
-+++
+---
+title: Strings
+date: December 18, 2022
+---
 
 A string literal uses double quotes `" "` and represents a string slice `str` or `&str`.
 
