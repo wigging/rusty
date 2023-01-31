@@ -1,9 +1,9 @@
 ---
 title: Vectors
-date: December 11, 2022
+date: January 30, 2023
 ---
 
-A vector is resizable collection that stores items of the same type. Its values are stored next to each other in memory.
+A vector is a resizable collection that stores items of the same type. Its values are stored next to each other in memory. The `vec!` macro can be used to initialize a vector.
 
 ```rust
 // Create a vector of numbers

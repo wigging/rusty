@@ -5,6 +5,13 @@
     "feed_url": "https://gavinw.me/rusty/feed.json",
     "items": [
         {
+            "id": "https://gavinw.me/rusty/rust/vectors.html",
+            "url": "https://gavinw.me/rusty/rust/vectors.html",
+            "title": "Vectors",
+            "date_published": "2023-01-30T00:00:00Z",
+            "content_html": "<p>A vector is a resizable collection that stores items of the same type. Its values are stored next to each other in memory. The <code>vec!</code> macro can be used to initialize a vector.</p><p><a href=\"https://gavinw.me/rusty/rust/vectors.html\">Continue reading...</a></p>"
+        },
+        {
             "id": "https://gavinw.me/rusty/rust/enums.html",
             "url": "https://gavinw.me/rusty/rust/enums.html",
             "title": "Enums",
@@ -24,13 +31,6 @@
             "title": "Strings",
             "date_published": "2022-12-18T00:00:00Z",
             "content_html": "<p>A string literal uses double quotes <code>\" \"</code> and represents a string slice <code>str</code> or <code>&amp;str</code>.</p><p><a href=\"https://gavinw.me/rusty/rust/strings.html\">Continue reading...</a></p>"
-        },
-        {
-            "id": "https://gavinw.me/rusty/rust/vectors.html",
-            "url": "https://gavinw.me/rusty/rust/vectors.html",
-            "title": "Vectors",
-            "date_published": "2022-12-11T00:00:00Z",
-            "content_html": "<p>A vector is resizable collection that stores items of the same type. Its values are stored next to each other in memory.</p><p><a href=\"https://gavinw.me/rusty/rust/vectors.html\">Continue reading...</a></p>"
         },
         {
             "id": "https://gavinw.me/rusty/rust/fizzbuzz.html",
