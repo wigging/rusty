@@ -1,0 +1,4 @@
+base_url = "https://gavinw.me/rusty"
+posts_output = "posts"
+site_output = "docs"
+title = "Rusty"
