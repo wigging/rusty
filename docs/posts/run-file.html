@@ -25,11 +25,25 @@
     <div class="row">
         <div class="col-md">
 
-        <h1>{{ meta.title }}</h1>
-        <h6>{{ meta.date }}</h6>
+        <h1>Compile and run a file</h1>
+        <h6>November 14, 2022</h6>
         <hr>
 
-        {{ content }}
+        <p>Below is the contents of a simple Rust program contained in a file named <code>sayhello.rs</code>.</p>
+<pre><code class="language-rust">// Contents of sayhello.rs that prints text to the screen.
+
+fn main() {
+    println!(&quot;Hello there&quot;);
+}
+</code></pre>
+<p>To compile and run the file use the <code>rustc</code> command in the terminal.</p>
+<pre><code class="language-bash"># Compile a file
+$ rustc sayhello.rs
+
+# Run the compiled file to print text to the screen
+$ ./sayhello
+Hello there
+</code></pre>
 
         </div>
     </div>

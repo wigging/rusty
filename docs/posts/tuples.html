@@ -25,11 +25,28 @@
     <div class="row">
         <div class="col-md">
 
-        <h1>{{ meta.title }}</h1>
-        <h6>{{ meta.date }}</h6>
+        <h1>Tuples</h1>
+        <h6>November 14, 2022</h6>
         <hr>
 
-        {{ content }}
+        <p>A tuple groups together values where each value can have a different type. Tuples have a fixed length and the first index is 0. In this example, a tuple is defined with three values of different types. The value is accessed using a period.</p>
+<pre><code class="language-rust">// Tuple with a variety of types
+let tup: (i8, f64, u16) = (12, 4.05, 5);
+
+// Access a tuple element using a period
+let first_item = tup.0;
+
+println!(&quot;First item is {first_item}&quot;);
+// First item is 12
+</code></pre>
+<p>The values in a tuple can be extracted to separate variables as shown below.</p>
+<pre><code class="language-rust">// Extract tuple values to three separate variables
+let tup = (12, 54, 102);
+let (a, b, c) = tup;
+
+println!(&quot;a is {a}, b is {b}, c is {c}&quot;);
+// a is 12, b is 54, c is 102
+</code></pre>
 
         </div>
     </div>

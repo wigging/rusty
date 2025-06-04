@@ -25,11 +25,47 @@
     <div class="row">
         <div class="col-md">
 
-        <h1>{{ meta.title }}</h1>
-        <h6>{{ meta.date }}</h6>
+        <h1>Enums</h1>
+        <h6>January 30, 2023</h6>
         <hr>
 
-        {{ content }}
+        <p>An enum (or enumeration) represents data that is one of several possible variants. Each variant in the enum can optionally have data associated with it. An enumeration is declared using the <code>enum</code> keyword.</p>
+<pre><code class="language-rust">enum Fruit {
+    Apple,
+    Orange,
+    Lemon,
+    Mellon,
+}
+
+fn selection(fruit: Fruit) {
+    match fruit {
+        Fruit::Apple =&gt; println!(&quot;Selected the Apple fruit&quot;),
+        Fruit::Orange =&gt; println!(&quot;You chose the Orange fruit&quot;),
+        Fruit::Mellon =&gt; println!(&quot;You selected a Watermelon&quot;),
+        Fruit::Lemon =&gt; println!(&quot;Selected a Lemon fruit&quot;),
+    }
+}
+
+fn main() {
+    let item1 = Fruit::Orange;
+    selection(item1);
+
+    let item2 = Fruit::Apple;
+    selection(item2);
+
+    let item3 = Fruit::Mellon;
+    selection(item3);
+
+    let item4 = Fruit::Lemon;
+    selection(item4);
+}
+</code></pre>
+<p>The output from the above example is shown below.</p>
+<pre><code>You chose the Orange fruit
+Selected the Apple fruit
+You selected a Watermelon
+Selected a Lemon fruit
+</code></pre>
 
         </div>
     </div>

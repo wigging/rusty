@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Highlightjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <!-- JSON feed -->
+    <link href="https://gavinw.me/rusty/feed.json" rel="alternate" type="application/feed+json" title="Rusty">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <title>Rusty</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+
+        <h1>Vectors</h1>
+        <h6>January 30, 2023</h6>
+        <hr>
+
+        <p>A vector is a resizable collection that stores items of the same type. Its values are stored next to each other in memory. The <code>vec!</code> macro can be used to initialize a vector.</p>
+<pre><code class="language-rust">// Create a vector of numbers
+let v1 = vec![3, 5, 8, 10, 12, 9];
+
+// Create a vector of strings
+let v2 = vec![&quot;one&quot;, &quot;two&quot;, &quot;three&quot;];
+</code></pre>
+<p>Below is an example of creating an empty vector and adding values to it.</p>
+<pre><code class="language-rust">// Add elements to an empty vector
+let mut v3 = Vec::new();
+v3.push(1.5);
+v3.push(3.0);
+v3.push(8.2);
+
+println!(&quot;v3 is {:?}&quot;, v3);
+// This prints:
+// v3 is [1.5, 3.0, 8.2]
+</code></pre>
+<p>Use indexing to get values from a vector. Notice the first element is at index zero.</p>
+<pre><code class="language-rust">// Read elements from a vector
+let v4 = vec![22, 38, 42, 50];
+let first = &amp;v4[0];
+let third = v4[2];
+let last = v4.last().unwrap();
+
+println!(&quot;v4 is {:?}&quot;, v4);
+println!(&quot;first is {}&quot;, first);
+println!(&quot;third is {}&quot;, third);
+println!(&quot;last is {}&quot;, last);
+// This prints:
+// v4 is [22, 38, 42, 50]
+// first is 22
+// third is 42
+// last is 50
+</code></pre>
+<p>Use of <code>for</code> loop to iterate over the values in a vector.</p>
+<pre><code class="language-rust">// Iterate over elements in a vector
+let v5 = vec![3, 4, 5, 6, 8, 12];
+
+for v in v5 {
+    println!(&quot;v in v5 is {}&quot;, v);
+}
+// This prints:
+// v in v5 is 3
+// v in v5 is 4
+// v in v5 is 5
+// v in v5 is 6
+// v in v5 is 8
+// v in v5 is 12
+
+// Iterate over elements in a vector by reference
+let v5 = vec![3, 4, 5, 6, 8, 12];
+
+for v in &amp;v5 {
+    println!(&quot;v in v5 is {}&quot;, v);
+}
+// This prints the same as above.
+</code></pre>
+
+        </div>
+    </div>
+    <div class="row my-5">
+    <div class="col">
+        <p class="text-center small my-5">
+            <a href="https://gavinw.me/rusty/">Rusty</a> © 2025 <br>
+            Built by <a href="https://gavinw.me">Gavin Wiggins</a>
+        </p>
+    </div>
+    </div>
+</div>
+</body>
+</html>

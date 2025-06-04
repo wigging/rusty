@@ -25,11 +25,24 @@
     <div class="row">
         <div class="col-md">
 
-        <h1>{{ meta.title }}</h1>
-        <h6>{{ meta.date }}</h6>
+        <h1>References</h1>
+        <h6>November 14, 2022</h6>
         <hr>
 
-        {{ content }}
+        <p>A reference is denoted by an ampersand <code>&amp;</code>. In the example below, a reference of the string <code>s1</code> is passed to the <code>calculate_length</code> function. The <code>&amp;s1</code> refers to the value of <code>s1</code> without owning it.</p>
+<pre><code class="language-rust">fn main() {
+    let s1 = String::from(&quot;hello&quot;);
+    let len = calculate_length(&amp;s1);
+    println!(&quot;The length of {s1} is {len}&quot;);
+}
+
+fn calculate_length(s: &amp;String) -&gt; usize {
+    return s.len();
+}
+</code></pre>
+<p>Running the above example generates the output shown below.</p>
+<pre><code>The length of hello is 5
+</code></pre>
 
         </div>
     </div>
