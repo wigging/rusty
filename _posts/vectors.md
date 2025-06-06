@@ -1,5 +1,5 @@
 ---
-title: Vectors
+title: Vectors in Rust
 date: January 30, 2023
 ---
 

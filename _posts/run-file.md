@@ -1,5 +1,5 @@
 ---
-title: Compile and run a file
+title: Compile and Run a Rust File
 date: November 14, 2022
 ---
 

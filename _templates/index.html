@@ -24,15 +24,20 @@
 
         <p>Rust is a great modern programming language that is memory efficient and fast. This website and associated repository provide concise code examples about essential Rust features as well as more advanced topics relevant to scientific computing.</p>
 
-        <p>This website and example code are available on <a href="https://github.com/wigging/rusty">GitHub</a>. An RSS feed is available for subscribing to new content and updates. Questions, comments, and other feedback can be sent via <a href="mailto:wigging42ATicloudDOTcom" onclick = "this.href=this.href.replace(/AT/,'&#64;').replace(/DOT/,'&#46;')">Email</a>, <a href="https://fosstodon.org/@wigging">Mastodon</a>, or <a href="https://twitter.com/wigging">Twitter</a>. Or submit an Issue on GitHub. If you would like to support this project, donations can be made to Gavin Wiggins using <a href="https://github.com/sponsors/wigging">GitHub Sponsors</a>, <a href="https://www.patreon.com/wigging">Patreon</a>, <a href="https://www.buymeacoffee.com/wigging">Buy Me A Coffee</a>, or <a href="https://www.paypal.me/gavinwiggins">PayPal</a>. Thank you 😄.</p>
+        <p>This website and example code are available on <a href="https://github.com/wigging/rusty">GitHub</a>. An RSS feed is available for subscribing to new content and updates. Questions, comments, and other feedback can be sent via <a href="mailto:wigging42ATicloudDOTcom" onclick = "this.href=this.href.replace(/AT/,'&#64;').replace(/DOT/,'&#46;')">Email</a>, <a href="https://fosstodon.org/@wigging">Mastodon</a>, or <a href="https://twitter.com/wigging">Twitter</a>. Or submit an Issue on GitHub. If you would like to support this project, donations can be made to Gavin Wiggins using <a href="https://github.com/sponsors/wigging">GitHub Sponsors</a>, <a href="https://www.patreon.com/wigging">Patreon</a>, <a href="https://www.buymeacoffee.com/wigging">Buy Me A Coffee</a>, or <a href="https://www.paypal.me/gavinwiggins">PayPal</a>. Thank you 😄</p>
 
         <p>Subscribe to this site using the <a href="https://gavinw.me/rusty/feed.json">JSON Feed</a>.</p>
 
-        <ul class="mt-5" style="columns:2;">
-        {% for post in posts %}
-            <li><a href="{{ post.link }}">{{ post.title }}</a></li>
+        {% for post in posts | sort(attribute='title') %}
+        <div class="row mx-auto mb-2" style="max-width:700px;">
+            <div class="col-md px-0">
+                <a href="{{ post.link }}">{{ post.title }}</a>
+            </div>
+            <div class="col-md text-md-end px-0" style="color:grey">
+                {{ post.date }}
+            </div>
+        </div>
         {% endfor %}
-        </ul>
 
         </div>
     </div>

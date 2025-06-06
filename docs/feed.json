@@ -7,7 +7,7 @@
         {
             "id": "https://gavinw.me/rusty/posts/vectors.html",
             "url": "https://gavinw.me/rusty/posts/vectors.html",
-            "title": "Vectors",
+            "title": "Vectors in Rust",
             "date_published": "2023-01-30T00:00:00Z",
             "content_html": "<p>A vector is a resizable collection that stores items of the same type. Its values are stored next to each other in memory. The <code>vec!</code> macro can be used to initialize a vector.</p><p><a href=\"https://gavinw.me/rusty/posts/vectors.html\">Continue reading...</a></p>"
         },
@@ -77,14 +77,14 @@
         {
             "id": "https://gavinw.me/rusty/posts/run-file.html",
             "url": "https://gavinw.me/rusty/posts/run-file.html",
-            "title": "Compile and run a file",
+            "title": "Compile and Run a Rust File",
             "date_published": "2022-11-14T00:00:00Z",
             "content_html": "<p>Below is the contents of a simple Rust program contained in a file named <code>sayhello.rs</code>.</p><p><a href=\"https://gavinw.me/rusty/posts/run-file.html\">Continue reading...</a></p>"
         },
         {
             "id": "https://gavinw.me/rusty/posts/arrays.html",
             "url": "https://gavinw.me/rusty/posts/arrays.html",
-            "title": "Arrays",
+            "title": "Arrays in Rust",
             "date_published": "2022-11-14T00:00:00Z",
             "content_html": "<p>An array is a collection of values where every element must have the same type. The length of an array is fixed and the first item is at index 0.</p><p><a href=\"https://gavinw.me/rusty/posts/arrays.html\">Continue reading...</a></p>"
         },

@@ -8,7 +8,7 @@ Example code is located in the `rust-scripts` folder.
 
 ## Website
 
-The website is available at https://gavinw.me/rusty. It is generated with the [genja](https://github.com/wigging/genja) tool using the `content`, `docs`, `templates` folders and the `config.json` file. The website is hosted with GitHub Pages from the `docs` folder.
+The website is available at https://gavinw.me/rusty. It is generated with the [Genja](https://github.com/wigging/genja) tool using the `docs`, `_posts`, and `_templates` folders and the `genja.toml` file. The website is hosted with GitHub Pages from the `docs` folder.
 
 ## Contributing
 

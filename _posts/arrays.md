@@ -1,5 +1,5 @@
 ---
-title: Arrays
+title: Arrays in Rust
 date: November 14, 2022
 ---
 
